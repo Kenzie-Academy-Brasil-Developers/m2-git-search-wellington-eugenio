@@ -1,0 +1,61 @@
+.project-name{
+    font-size: var(--font-size-3);
+    font-weight: var(--font-w-3);
+    line-height: 1.750rem;
+    color: var(--color-grey-7);
+}
+
+.project-desc{
+    font-size: var(--font-size-4);
+    font-weight: var(--font-w-4);
+    line-height: 1.313rem;
+    color: var(--color-grey-6);
+}
+
+.profile-name{
+    font-size: var(--font-size-2);
+    font-weight: var(--font-w-1);
+    line-height: 1.816rem;
+}
+
+.profile-job{
+    font-size: var(--font-size-5);
+    font-weight: var(--font-w-4);
+    line-height: 1.250rem;
+    color: var(--color-grey-5);
+}
+
+.title2{
+    font-size: var(--font-size-3);  
+    font-weight: var(--font-w-3);
+    line-height: 1.875rem;
+}
+.text-form{
+    font-size: var(--font-size-5);
+    font-weight: var(--font-w-3);
+    line-height: 1.313rem;
+}
+
+
+.alert-not-found{
+    font-size: var(--font-size-5);
+    font-weight: var(--font-w-4);
+    line-height: 1.313rem;
+    color: var(--color-brand-1);
+}
+
+.title{
+    font-size: var(--font-size-1);
+    font-weight: var(--font-w-2);
+    line-height: 3rem;
+}
+.text-desc{
+    font-size: var(--font-size-3);
+    font-weight: var(--font-w-4);
+    line-height: 1.875rem;
+}
+.text-remenber{
+ font-size: var(--font-size-4);
+ font-weight: var(--font-w-3);
+ line-height: 1.5rem;
+}

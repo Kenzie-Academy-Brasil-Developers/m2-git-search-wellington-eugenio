@@ -28,58 +28,11 @@
     justify-content: space-around;
 }
 
-.profile-name{
-    font-size: var(--font-size-2);
-    font-weight: var(--font-w-1);
-    line-height: 1.816rem;
-}
-.profile-job{
-    font-size: var(--font-size-5);
-    font-weight: var(--font-w-4);
-    line-height: 1.250rem;
-    color: var(--color-grey-5);
-}
 .profile-buttons{
     display: flex;
     gap: 1rem;
 }
 
-.email-profile{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 5.25rem;
-    height: 2.375rem;
-    text-align: center;
-    background-color: var(--color-brand-1);
-    color: var(--color-grey-7);
-    text-decoration: none;
-    font-size: var(--font-size-5);
-    font-weight: var(--font-w-2);
-    border-radius: 0.5rem;
-    cursor: pointer;
-}
-.email-profile:hover{
-    font-size: var(--font-size-4);
-}
-.change-profile{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 12.25rem;
-    height: 2.375rem;
-    text-align: center;
-    background-color: var(--color-grey-1);
-    color: var(--color-grey-7);
-    text-decoration: none;
-    font-size: var(--font-size-5);
-    font-weight: var(--font-w-2);
-    border-radius: 0.5rem;
-    cursor: pointer;
-}
-.change-profile:hover{
-    font-size: var(--font-size-4);
-}
 
 .profile-projects{
     margin-top: 4.375rem;
@@ -113,49 +66,8 @@
     background-color: var(--color-brand-1);
 }
 
-.project-name{
-    font-size: var(--font-size-3);
-    font-weight: var(--font-w-3);
-    line-height: 1.750rem;
-    color: var(--color-grey-7);
-}
-.project-desc{
-    font-size: var(--font-size-4);
-    font-weight: var(--font-w-4);
-    line-height: 1.313rem;
-    color: var(--color-grey-6);
-}
-
 .project-buttons{
     display: flex;
     gap: 1rem;
 }
 
-.button-repo{
-    width: 5.813rem;
-    height:1.75rem;
-    border: 0.063rem solid var(--color-grey-7);
-    border-radius: 0.250rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: var(--font-size-5);
-    font-weight: var(--font-w-3);
-    color: var(--color-grey-7);
-    text-decoration: none;
-    cursor: pointer;
-}
-.button-link{
-    width: 3.813rem;
-    height:1.75rem;
-    border: 0.063rem solid var(--color-grey-7);
-    border-radius: 0.250rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: var(--font-size-5);
-    font-weight: var(--font-w-3);
-    color: var(--color-grey-7);
-    text-decoration: none;
-    cursor: pointer;
-}

@@ -17,22 +17,6 @@ main{
     padding-right: 10rem;
 }
 
-.title{
-    font-size: var(--font-size-1);
-    font-weight: var(--font-w-2);
-    line-height: 3rem;
-}
-.text-desc{
-    font-size: var(--font-size-3);
-    font-weight: var(--font-w-4);
-    line-height: 1.875rem;
-}
-.text-remenber{
- font-size: var(--font-size-4);
- font-weight: var(--font-w-3);
- line-height: 1.5rem;
-}
-
 .remenber-container{
     display: flex;
     gap: 1.5rem;
@@ -75,50 +59,3 @@ main{
     gap: 2rem;
 }
 
-.title2{
-  font-size: var(--font-size-3);  
-  font-weight: var(--font-w-3);
-  line-height: 1.875rem;
-}
-.text-form{
-    font-size: var(--font-size-5);
-    font-weight: var(--font-w-3);
-    line-height: 1.313rem;
-}
-.alert-not-found{
-    font-size: var(--font-size-5);
-    font-weight: var(--font-w-4);
-    line-height: 1.313rem;
-    color: var(--color-brand-1);
-}
-
-.form-profile{
-    display: flex;
-    height: 20rem;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.input-profile{
-    width: 100%;
-    height: 2.375rem;
-    padding-left: 1rem;
-    background-color: var(--color-grey-1);
-    border: 1px solid var(--color-grey-7);
-    border-radius: 0.250rem;
-}
-
-.button-form{
-    width: 100%;
-    height: 2.375rem;
-    background-color: var(--color-brand-2);
-    border: 1px solid var(--color-brand-2);
-    border-radius: 0.250rem;
-    cursor: pointer;
-    color: var(--color-grey-7);
-    font-size: var(--font-size-5);
-    font-weight: var(--font-w-3);
-}
-
-.button-form:disabled{
-    background-color: #d6336c7a;
-}
