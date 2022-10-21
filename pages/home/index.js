@@ -36,12 +36,22 @@ async function searchProfileGit(){
 
 
 async function userGitApi(user){
-    const localError = document.querySelector('alert')
+    const localError = document.querySelector('#alert')
+
+    localError.innerHTML =""
+
     try{
         const response = await fetch(`https://api.github.com/users/${user}`)
         const profileUser = response.json()
+        if(response.status === 404){
+            localError.insertAdjacentHTML(
+                "beforeend",
+                `<p class="alert-not-found">Usuário não encontrado</p>`
+            )
+        }else{
         await localStorage.setItem('profile', user)
         await window.location.replace('../profile/index.html')
+        }
         return profileUser
     }catch(error){
         localError.innerHTML = `<p class="alert-not-found">Usuário não encontrado</p>`
@@ -53,7 +63,7 @@ searchProfileGit()
 async function beginVisiter(){
     const local = document.querySelector('#profilesList')
     const profilevisit = getProfileVisit()
-    console.log(profilevisit)
+    
     local.innerHTML=""
 
     profilevisit.forEach((obj)=>{
