@@ -21,32 +21,25 @@
         </h3>
         <div class="remenber-container">
           <p class="text-remenber">Achados recentemente:</p>
-          <ul class="records-profiles" id="profiles">
-            <li class="profile-record">
-              <a href=""><img class="img-profile" src="../../src/img/profile.png" alt=""></a>
-            </li>
-            <li class="profile-record">
-              <a href=""><img class="img-profile" src="../../src/img/profile.png" alt=""></a>
-            </li>
-            <li class="profile-record">
-              <a href=""><img class="img-profile" src="../../src/img/profile.png" alt=""></a>
-            </li>
+          <ul class="records-profiles" id="profilesList">
           </ul>
         </div>
       </article>
       <article class="searh-container">
         <div class="mini-container">
           <h3 class="title2">Procurar um usuario</h3>
-          <form class="form-profile" action="">
+          <form class="form-profile" id="form" action="">
           <label class="text-form" for="username">Usuário github</label>
-          <input class="input-profile" type="text" placeholder="Digite um usuario github aqui...">
-          <p class="alert-not-found">Usuário não encontrado</p>
-          <button class="button-form" type="submit">Ver perfil do github</button>
+          <div id='alert'></div>
+          <input class="input-profile" type="text" id="profilename" placeholder="Digite um usuario github aqui...">
+          
+          <button class="button-form" id="btn" type="submit">Ver perfil do github</button>
         </form>
         </div>
       </article>
 
     </main>
+    <script src="../../scpt/profiles.js"></script>
     <script src="../home/index.js"></script>
   </body>
 </html>

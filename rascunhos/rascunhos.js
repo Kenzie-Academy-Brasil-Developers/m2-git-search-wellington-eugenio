@@ -24,4 +24,7 @@
 <li class="profile-record">
     <a href=""><img class="img-profile" src="../../src/img/profile.png" alt=""></a>
 </li>
+
+alerta nao encontrado
+<p class="alert-not-found">Usuário não encontrado</p>
 */

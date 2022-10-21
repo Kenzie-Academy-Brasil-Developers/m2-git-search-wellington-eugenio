@@ -11,6 +11,7 @@
     background-color: var(--color-grey-1);
     border: 1px solid var(--color-grey-7);
     border-radius: 0.250rem;
+    color: var(--color-grey-7);
 }
 
 .button-form{

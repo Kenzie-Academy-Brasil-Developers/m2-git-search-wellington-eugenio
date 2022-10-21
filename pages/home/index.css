@@ -25,7 +25,7 @@ main{
 
 .records-profiles{
     display: flex;
-    gap: 1rem;
+    gap: 3rem;
 }
 
 .profile-record{
@@ -34,12 +34,16 @@ main{
     border: 2px solid var(--color-grey-1);
     border-radius: 50%;
     cursor: pointer;
+    color: var(--color-brand-1);
+    font-weight: 600;
 }
 
 .profile-record:hover{
     width: 2.750rem;
     height: 2.750rem;
     border: 3px solid var(--color-grey-7);
+    color: var(--color-grey-1);
+    font-weight: 600;
 }
 
 .searh-container{
